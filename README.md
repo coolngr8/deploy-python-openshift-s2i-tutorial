@@ -38,6 +38,11 @@
       - Pods
       - Route
     - Route should be created manually to expose the service
-      - It contains port mappings too  
-    
-     
+      - It contains port mappings too
+- Database (Postgres)
+  - Connect to terminal via pod and use `psql` command-line utility
+    - [PostgreSQL: Documentation: 12: 1.4. Accessing a Database](https://www.postgresql.org/docs/12/tutorial-accessdb.html)
+  - [Connecting to a Database Using Port Forwarding in OpenShift](https://blog.openshift.com/openshift-connecting-database-using-port-forwarding)
+    - `oc port-forward <postgres-pod> 12345:5432`
+      - Now, for Postgres, pgAdmin can be configured to connect on 127.0.0.1:12345
+   
