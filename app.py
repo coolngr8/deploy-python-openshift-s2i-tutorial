@@ -4,7 +4,7 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 
 @app.route('/', methods=['POST'])   # URL '/' to be handled by main() route handler
 def main():
-    return int(request.form['num']*2)
+    return str(int(request.form['num']*2))
 
 if __name__ == '__main__':  # Script executed directly?
     print("Hello, World. Uses S2I to build the application.")
