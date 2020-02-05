@@ -40,6 +40,8 @@
     - Route should be created manually to expose the service
       - It contains port mappings too
 - Database (Postgres)
+  - Creating a service
+    - [Documentation->OpenShift Enterprise->Using Images->Database Images ->PostgreSQL](https://docs.openshift.com/enterprise/3.1/using_images/db_images/postgresql.html)
   - Connect to terminal via pod and use `psql` command-line utility
     - [PostgreSQL: Documentation: 12: 1.4. Accessing a Database](https://www.postgresql.org/docs/12/tutorial-accessdb.html)
   - [Connecting to a Database Using Port Forwarding in OpenShift](https://blog.openshift.com/openshift-connecting-database-using-port-forwarding)
