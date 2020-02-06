@@ -1,4 +1,4 @@
-# Deploying Python-based services on Openshift Without Any Template or Image
+# Deployment of Python-based services on Openshift
 
 ## Possible methods
 1. [github](/github): Create a public github.com repo with app.py and requirements.txt files
