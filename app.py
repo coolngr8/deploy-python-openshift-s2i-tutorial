@@ -6,7 +6,7 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 def get_something_from_database_():
     import psycopg2
     
-    connection_ = psycopg2.connect(host="", port=5432, user="postgres", password="postgres")
+    connection_ = psycopg2.connect(host="", port=5432, user="postgres", password="")
     cursor_ = connection_.cursor()
     
     cursor_.execute("SELECT * FROM AHMEDABAD")
